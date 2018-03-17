@@ -1,0 +1,112 @@
+/* Use full width & height of webpage; set background to light gray */
+body {
+    margin:0;
+    background-color: #ddd;
+}
+
+/* Title attributes */
+#banner {
+    text-align: center;
+    font-family: 'Orbitron';
+    font-weight: bold;
+    background-color: #041a3d;
+    color: #ddd;
+    padding: 1px 0;
+}
+
+/* Nav bar attributes */
+#nav {
+    text-align: center;
+    font-family: 'Orbitron';
+    font-size: 40px;
+}
+
+/* Navigation Link attributes */
+#nav a {
+    color: #041a3d;
+    text-decoration: none; 
+}
+
+/* Bold on Nav Link hover */
+#nav a:hover {
+    font-weight: bold;
+}
+
+/* Design of each "card" on the webpage */
+.content-block {
+    width: 60%;
+    background: white;
+    border: 1px solid white;
+    border-radius: 20px;
+    margin: 0 auto 20px auto;
+    padding: 20px;
+    line-height: 1.5em;
+    box-shadow: 5px 10px 8px #888888;
+}
+
+/* Font of Webpage */
+.content-block p, li {
+    font-family: 'Roboto';
+    font-weight: 400;
+}
+
+/* Title of each card */
+.content-block h2 {
+    text-align: center;
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 45px;
+    margin: 20px 0 30px 0;
+}
+
+/* Subsection of card */
+.content-block h3 {
+    font-family: 'Roboto';
+    font-weight: 300;
+    font-size: 25px;
+}
+
+/* footer attributes */
+#footer p {
+    margin: 0;
+    font-weight: 300;
+    font-family: 'Roboto'; 
+    text-align: center;
+    font-size: 30px;
+}
+
+/* top image shown in gb, gbc, and gba sections */
+#title-image {
+    width: 70%;
+    display: block;
+    margin: 0 auto;
+}
+
+/* attributes of images shown in the popular section */
+#popular img {
+    height: 200px;
+    width: 200px;
+    border-radius: 15px;
+    box-shadow: 5px 10px 8px #888888;
+    margin: 10px;
+}
+
+/* rollover image support */
+#popular img:hover {
+    height: 210px;
+    width: 210px;
+    margin: 5px;
+}
+
+/* centers the images on the popular section, using a paragraph tag to surround images is weird, but it allows alignment of multiple images */
+#popular p {
+    text-align: center;
+}
+
+/* A simple class when I need an image to the right of a paragraph */
+.image-right {
+    display: block;
+    padding: 15px;
+    float: right;
+    border-radius: 30px;
+}
